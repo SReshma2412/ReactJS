@@ -28,6 +28,7 @@ function WordCounter() {
      
             width: 600, 
             height: 500,
+           
             boxShadow: '0px -5px 5px -5px #f2eeed, -5px 0px 5px -5px #f2eeed, 5px 0px 5px -5px #f2eeed',
             border: '3px solid #f2eeed',
             fontStyle:'italic'
@@ -42,7 +43,7 @@ const  style2={
                 <div class="row"  style={style1}>
                     <div class=" col-md-12 col-lg-12 col-sm-12 border-bottom-0 " >
                        <h1 style={style2}>Responsive Paragraph Word <br></br> Counter</h1>
-                        <textarea onChange={handleKeyPress} rows="5" cols="70" > </textarea>
+                        <textarea onChange={handleKeyPress} rows="5" cols="50" > </textarea>
                         <br></br>
                         <br></br>
                         <p style={{textAlign:"start"}} class="ms-3">Word Count:  {state.wordCount}</p>
